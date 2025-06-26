@@ -13,7 +13,7 @@ load_dotenv()
 
 class Config(object):
     # Get a token from @BotFather
-    BOT_TOKEN = os.environ.get("7368321164:AAFKX0Dl1vEQVfuX4HZ5wIkYbuD174Syp-I")
+    BOT_TOKEN = os.environ.get("7977209272:AAG1lH9Zvc9-FuL4HmqtWfCa_F4DXEi8E_Q")
     # The Telegram API things
     API_ID = os.environ.get("25331263")
     API_HASH = os.environ.get("cab85305bf85125a2ac053210bcd1030")
@@ -35,7 +35,7 @@ class Config(object):
     # Set timeout for subprocess
     PROCESS_MAX_TIMEOUT = 3700
 
-    OWNER_ID = os.environ.get("OWNER_ID")
+    OWNER_ID = os.environ.get("1955406483")
     ADL_BOT_RQ = {}
     AUTH_USERS = list({int(x) for x in os.environ.get("AUTH_USERS", "0").split()})
     AUTH_USERS.append(OWNER_ID)
